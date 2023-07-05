@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\kirimEmailController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,14 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('admin.admin');
 });
+
+Route::get('/produk', [ProductController::class, 'index'])->name('produk');
+Route::get('/produk/add',[ProductController::class,'add']);
+Route::post('/produk/insert',[ProductController::class,'insert']);
+Route::get('/produk/detailproduk/{id}',[ProductController::class, 'detail']);
+Route::get('/produk/edit/{id}',[ProductController::class,'edit']);
+Route::post('/produk/update/{id}',[ProductController::class,'update']);
+Route::get('/produk/delete/{id}',[ProductController::class,'delete']);
 
 Auth::routes();
 

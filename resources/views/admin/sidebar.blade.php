@@ -40,61 +40,13 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="{{ url('dataitem') }}" class="nav-link">
+                    <a href="/produk" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Sneakers</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="{{ url('datatrending') }}" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Trending</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="{{ url('dataapparel') }}" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Apparel</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="{{ url('dataspecial1') }}" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Special Offer 1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="{{ url('dataspecial2') }}" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Special Offer 2</p>
+                      <p>Product</p>
                     </a>
                   </li>
                 </ul>
               </li>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                Pages
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="/" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Home</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ url('product') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Product</p>
-                </a>
-              </li>
-            </ul>
           </li>
                 </nav>
                 <!-- /.sidebar-menu -->
