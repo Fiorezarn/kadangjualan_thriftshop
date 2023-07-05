@@ -38,6 +38,9 @@
                 </div>
                 <ul class="py-2" aria-labelledby="user-menu-button">
                 <li>
+                    @if (Auth::user()->level == 1)
+                    <a href="/admin" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                    @endif
                     <a href="{{ route('logout') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Sign out</a>
 
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

@@ -12,7 +12,7 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="info">
-                        <a href="#" class="d-block">Halo, Admin</a>
+                        <a href="#" class="d-block">Halo, {{ Auth::user()->name }}</a>
                     </div>
                 </div>
 
@@ -23,7 +23,7 @@
                with font-awesome or any other icon font library -->
               </li>
               <li class="nav-item">
-                <a href="{{ url('dashboard') }}" class="nav-link">
+                <a href="/admin" class="nav-link">
                   <i class="nav-icon fas fa-th"></i>
                   <p>
                   Dashboard
@@ -43,6 +43,24 @@
                     <a href="/produk" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Product</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-box"></i>
+                  <p>
+                    Pages
+                    <i class="fas fa-angle-left right"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="/" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Home</p>
                     </a>
                   </li>
                 </ul>
