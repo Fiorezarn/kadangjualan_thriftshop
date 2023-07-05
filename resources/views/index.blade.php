@@ -172,7 +172,7 @@
                         <p class="mt-2">Size : {{ $item->size }}</p>
                         <p class="mt-2">Kategori : {{ $item->kategori }}</p>
                         <p class="mt-2">{{ 'Rp. ' . number_format($item->harga, 0, ',', '.') }}</p>
-                            <a href="/pembayaran/{{ $item->id }}" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
+                            <a href="https://api.whatsapp.com/send?phone=+62895320297330&text=Halo%2C%20saya%20ingin%20order%20produk%20raitopia" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
                             <a href="/product/detailproduct/{{ $item->id }}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a>
                     </div>
                 </div>
