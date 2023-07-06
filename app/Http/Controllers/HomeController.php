@@ -32,7 +32,7 @@ class HomeController extends Controller
         $data = [
             'product' => $this->Product->get()
         ];
-        return view('index', $data);
+        return view('home', $data);
     }
 
     public function detail($id)
