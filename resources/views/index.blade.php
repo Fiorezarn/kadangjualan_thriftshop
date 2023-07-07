@@ -173,12 +173,12 @@
                         <p class="mt-2">Kategori : {{ $item->kategori }}</p>
                         <p class="mt-2">{{ 'Rp. ' . number_format($item->harga, 0, ',', '.') }}</p>
                         @auth
-                        <a href="https://api.whatsapp.com/send?phone=+6281287935402&text=Format%20Pemesanan%0ANama%20Penerima%20%3A%0ANama%20Barang%20%3A%0AAlamat%20%3A" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
+                        <a href="https://api.whatsapp.com/send?phone=+6281287935402&text=Format%20Pemesanan%0ANama%20Penerima%20%3A%0ANama%20Barang%20%3A%0AAlamat%20%3A"
+                                        class="inline-block mt-10 px-4 py-2 text-white bg-red-500 rounded hover:bg-green-600">Beli Sekarang</a>
                         <a href="/product/detailproduct/{{ $item->id }}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a>
                          @else
-                         <div class=" text-sm font-extrabold text-center ">
-                            <a href="{{ route('login') }}" class="inline-block  mt-4 px-4 py-2 text-white bg-blue-500 rounded">Login Untuk Melihat Detail   </a>
-                         </div>  
+                         <a href="/login" class="inline-block mt-10 px-4 py-2 text-white bg-red-500 rounded hover:bg-green-600">Beli Sekarang</a>
+                        <a href="/login" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a>  
                         @endauth
                  </div>
                 </div>
