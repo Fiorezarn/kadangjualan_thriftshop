@@ -15,7 +15,7 @@
                     <div class="mt-6">
                         <p class="mb-2">Size : {{ $products->size }}</p>
                         <p class="mb-2">Kategori : {{ $products->kategori }}</p>
-                        <a href="https://api.whatsapp.com/send?phone=+62895320297330&text=Halo%2C%20saya%20ingin%20order%20produk%20raitopia"
+                        <a href="https://api.whatsapp.com/send?phone=+6281287935402&amp;text=Halo%2C%20saya%20ingin%20order%20produk%20raitopia%0ANama%3A%20John%20Doe%0AAlamat%3A%20Jl.%20Contoh%20123%0AKota%3A%20Jakarta"
                             class="inline-block px-4 py-2 text-white bg-red-500 rounded hover:bg-blue-600">Beli Sekarang</a>
                     </div>
                 </div>
