@@ -2,6 +2,7 @@
 @section('css', '/css/detailproduk.css')
 @section('title','Detail product')
 @section('content')
+
 <section class="detail-produk">
     <div class="container">
         <div class="row" >
@@ -18,6 +19,7 @@
                     <p class="mb-2 text-xl">Size : {{ $products->size }}</p>
                     <a href="https://api.whatsapp.com/send?phone=+6281287935402&text=Format%20Pemesanan%0ANama%20Penerima%20%3A%0ANama%20Barang%20%3A%0AAlamat%20%3A"
                                         class="inline-block mt-10 px-4 py-2 text-white bg-red-500 rounded hover:bg-green-600">Beli Sekarang</a>
+
                 </div>
             </div>
         </div>
