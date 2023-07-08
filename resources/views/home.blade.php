@@ -106,7 +106,7 @@
                 <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
                     <h2 id="accordion-flush-heading-1">
                         <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
-                        <span>What is Flowbite?</span>
+                        <span>Bagaimana metode pembayaran yang tersedia?</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                         </svg>
@@ -114,13 +114,12 @@
                     </h2>
                     <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
                         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                        <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Kami menerima pembayaran melalui transfer bank BCA. Setelah Anda mengirimkan pesanan, tim kami akan menghubungi Anda melalui WhatsApp yang tercantum untuk memberikan detail pembayaran dan instruksi transfer.</p>
                         </div>
                     </div>
                     <h2 id="accordion-flush-heading-2">
                         <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
-                        <span>Is there a Figma file available?</span>
+                        <span>Apakah ada konfirmasi pembayaran yang harus dilakukan?</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                         </svg>
@@ -128,13 +127,12 @@
                     </h2>
                     <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
                         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Ya, setelah Anda melakukan transfer pembayaran, Anda harus melakukan konfirmasi pembayaran melalui WhatsApp. Kami akan menyediakan nomor WhatsApp yang dapat Anda hubungi untuk melakukan konfirmasi. Mohon sertakan bukti transfer dan informasi pesanan Anda agar kami dapat memproses pesanan dengan cepat.</p>
                         </div>
                     </div>
                     <h2 id="accordion-flush-heading-3">
                         <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
-                        <span>What are the differences between Flowbite and Tailwind UI?</span>
+                        <span>Berapa lama waktu pemrosesan dan pengiriman pesanan?</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                         </svg>
@@ -142,13 +140,42 @@
                     </h2>
                     <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
                         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                        <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                            <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-                            <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-                        </ul>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Bagaimana cara memesan baju trifhting melalui website ini?</p>
+                            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                                <li><p  class="text-blue-600 dark:text-blue-500">Telusuri koleksi baju trifhting yang tersedia di website.</p></li>
+                                <li><p  class="text-blue-600 dark:text-blue-500">Pilih ukuran, warna, dan kuantitas yang Anda inginkan.</p></li>
+                                <li><p  class="text-blue-600 dark:text-blue-500">Klik tombol "Detail" untuk melihat detail dari produk.</p></li>
+                                <li><p  class="text-blue-600 dark:text-blue-500">Klik tombol "Beli Sekarang" untuk melakukan transaksi.</p></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-flush-heading-2">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                        <span>Apakah ada biaya pengiriman yang harus dibayarkan?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Biaya pengiriman akan ditanggung oleh pembeli. Kami akan menghitung biaya pengiriman berdasarkan lokasi pengiriman dan berat paket. Biaya pengiriman akan diinformasikan kepada Anda sebelum Anda melakukan pembayaran.</p>
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-flush-heading-2">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                        <span>Apakah ada kebijakan pengembalian atau penukaran barang?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Ya, kami menerima pengembalian atau penukaran barang dalam waktu 7 hari setelah pesanan diterima, dengan catatan barang yang dikembalikan atau ditukar dalam kondisi baru dan belum digunakan. Untuk informasi lebih lanjut tentang prosedur pengembalian atau penukaran barang, silakan hubungi tim kami melalui WhatsApp.</p>
                         </div>
                     </div>
                 </div>
@@ -157,8 +184,8 @@
     </div>
 </section>
 
-<section id="produk-thrifting">
-    <div class=" text-4xl font-extrabold text-center  ">
+<section  id="produk-thrifting">
+    <div class=" text-4xl font-extrabold text-center">
         <h3 >Produk Thrifting</h3>
     </div>
     <div class="container mt-5">
@@ -191,7 +218,7 @@
                         <span class="text-3xl font-bold text-gray-900 dark:text-white">{{ 'Rp. ' . number_format($item->harga, 0, ',', '.') }}</span>
                     </div>
                     @auth
-                    <a href="https://api.whatsapp.com/send?phone=+6281287935402&text=Format%20Pemesanan%0ANama%20Penerima%20%3A%0ANama%20Barang%20%3A%0AAlamat%20%3A" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
+                    <a href="https://wa.me/081287935402?text=Pembayaran%20Via%20BCA%2077654342.%0AFormat%20Pesanan%20Kadang%20Jualan%0ANama%20Barang%20:{{ $item->namaproduk }}%0AHarga%20:{{ $item->harga }}%0AKategori%20:{{ $item->kategori }}%0AHarga%20:{{ $item->harga }}%0A%0ANama%20Penerima%20:%0AAlamat%20:" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
                     <a href="/product/detailproduct/{{ $item->id }}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a>
                      @else
                      <a href="{{route('login')}}" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>

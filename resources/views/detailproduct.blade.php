@@ -17,9 +17,8 @@
                 <div class="mt-6">
                     <p class="mb-2 text-xl">Kategori : {{ $products->kategori }}</p>
                     <p class="mb-2 text-xl">Size : {{ $products->size }}</p>
-                    <a href="https://api.whatsapp.com/send?phone=+6281287935402&text=Format%20Pemesanan%0ANama%20Penerima%20%3A%0ANama%20Barang%20%3A%0AAlamat%20%3A"
-                                        class="inline-block mt-10 px-4 py-2 text-white bg-red-500 rounded hover:bg-green-600">Beli Sekarang</a>
-
+                    <a href="https://wa.me/081287935402?text=Pembayaran%20Via%20BCA%2077654342.%0AFormat%20Pesanan%20Kadang%20Jualan%0ANama%20Barang%20:{{ $products->namaproduk }}%0AHarga%20:{{ $products->harga }}%0AKategori%20:{{ $products->kategori }}%0AHarga%20:{{ $products->harga }}%0A%0ANama%20Penerima%20:%0AAlamat%20:" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
+                    
                 </div>
             </div>
         </div>
