@@ -162,6 +162,7 @@
         <h3 >Produk Thrifting</h3>
     </div>
     <div class="container mt-5">
+    
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
             @foreach ($product as $item)
             <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -190,14 +191,12 @@
                         <span class="text-3xl font-bold text-gray-900 dark:text-white">{{ 'Rp. ' . number_format($item->harga, 0, ',', '.') }}</span>
                     </div>
                     @auth
-                    <a href="#" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
+                    <a href="https://api.whatsapp.com/send?phone=+6281287935402&text=Format%20Pemesanan%0ANama%20Penerima%20%3A%0ANama%20Barang%20%3A%0AAlamat%20%3A" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
                     <a href="/product/detailproduct/{{ $item->id }}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a>
                      @else
-                     <div class=" text-sm font-extrabold text-center ">
-                        <a href="{{ route('login') }}" class="inline-block  mt-4 px-4 py-2 text-white bg-blue-500 rounded">Login Untuk Melihat Detail   </a>
-                     </div>  
+                    <a href="{{ route('login') }}" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
+                    <a href="{{ route('login') }}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a> 
                      @endauth
-
                 </div>
             </div>
 
@@ -226,7 +225,7 @@
             
             <div class="contact-info-content">
               <h4>Address</h4>
-              <p>4671 Sugar Camp Road,<br/> Owatonna, Minnesota, <br/>55060</p>
+              <p>jl.danau kerinci 2 no.7</p>
             </div>
           </div>
           
@@ -237,7 +236,7 @@
             
             <div class="contact-info-content">
               <h4>Phone</h4>
-              <p>571-457-2321</p>
+              <p>+62 812-8793-5402</p>
             </div>
           </div>
           
@@ -248,7 +247,7 @@
             
             <div class="contact-info-content">
               <h4>Email</h4>
-             <p>ntamerrwael@mfano.ga</p>
+             <p>pampampramq@gmail.com</p>
             </div>
           </div>
         </div>
@@ -294,19 +293,15 @@
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#header-home" class="mr-4 hover:underline md:mr-6 ">Home</a>
+            <a href="{{ url('/') }}#header-home" class="mr-4 hover:underline md:mr-6 ">Home</a>
         </li>
         <li>
-            <a href="#produk-thrifting" class="mr-4 hover:underline md:mr-6">Produk</a>
+            <a href="{{ url('/') }}#produk-thrifting" class="mr-4 hover:underline md:mr-6">Produk</a>
         </li>
         <li>
-            <a href="#contact" class="hover:underline">Contact Us</a>
+            <a href="{{ url('/') }}#contact" class="hover:underline">Contact Us</a>
         </li>
     </ul>
     </div>
 </footer>
-
-
-
-
 @endsection
