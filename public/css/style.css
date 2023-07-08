@@ -156,6 +156,13 @@
     background: #FFF;
     color: #00bcd4;
   }
+
+  #produk-thrifting{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
   
   @media (max-width: 991px) {
     section {
