@@ -194,9 +194,10 @@
                     <a href="https://api.whatsapp.com/send?phone=+6281287935402&text=Format%20Pemesanan%0ANama%20Penerima%20%3A%0ANama%20Barang%20%3A%0AAlamat%20%3A" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
                     <a href="/product/detailproduct/{{ $item->id }}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a>
                      @else
-                    <a href="{{ route('login') }}" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
-                    <a href="{{ route('login') }}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a> 
-                     @endauth
+                     <a href="{{route('login')}}" class="inline-block mt-4 px-4 py-2 text-white bg-red-500 rounded hover:bg-red-600">Beli Sekarang</a>
+                     <a href="{{route('login')}}" class="inline-block mt-4 px-4 py-2 text-white bg-green-500 rounded hover:bg-600">Detail</a>
+                    @endauth
+
                 </div>
             </div>
 
